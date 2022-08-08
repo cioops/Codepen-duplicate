@@ -1,0 +1,66 @@
+/* common nav-styles */
+.navigation-wrapper {
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+/* left-column styles */
+.navigation-wrapper > .left-column > .img img {
+    width: 270px;
+    height: 100%;
+    padding-left: 15px;
+}
+
+/* center-column styles */
+.center-column {
+    width: 600px;
+    padding-right: 250px;
+}
+
+.center-column > .column-name {
+    color: gold;
+}
+
+.center-column > .column-tabs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.center-column > .column-tabs > .spark-chevron {
+    font-weight: normal;
+    opacity: 0.7;
+    padding-left: 10px;
+    font-size: 0.8em;
+    align-items: center;
+}
+
+/* right-column styles */
+.right-column {
+    width: 470px;
+    margin-right: 10px;
+}
+
+.right-column > .buttons-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-column > .buttons-row > .button {
+    background-color: #404040;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+#search-icon {
+    padding-left: 20px;
+    padding-right: 20px;
+    opacity: 0.5;
+}

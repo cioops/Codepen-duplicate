@@ -1,0 +1,22 @@
+.footer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    background-color: #1d1d1d;
+    color: white;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.footer p {
+    padding: 20px 86px;
+    font-size: 1.5em;
+    border: 1px solid grey;
+    margin: 0px;
+}
+
+.footer p span {
+    font-weight: 1000;
+    font-size: 1.46em;
+}
